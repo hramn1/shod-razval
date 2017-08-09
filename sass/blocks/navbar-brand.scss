@@ -1,0 +1,17 @@
+.navbar-brand {
+	&__logo {
+		display: inline-block;
+		border-radius: 50%;
+		width:100px;
+		height:auto;
+	}
+	&__text {
+		display: inline-block;
+		color: $white;
+		margin-left:10px;
+		font-size: 120%;
+		&:hover{
+			color: rgba(255,255,255, 0.5)
+		}
+	}
+} 
