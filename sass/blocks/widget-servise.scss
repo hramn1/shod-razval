@@ -2,4 +2,10 @@
 	padding: 30px 0;
 	text-align: center;
 	background-color: $bg-color;
+	&__block{
+		margin: 10px 0 25px;
+	}
+	&__text{
+		margin-top: 15px;
+	}
 } 
