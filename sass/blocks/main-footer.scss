@@ -1,4 +1,27 @@
 .main-footer {
   background-color: $main-color;
   color: $white;
+  &__menu{
+  	padding:10px 0;
+  	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  &__copyright{
+  	padding:10px 0;
+  	border-top: 1px solid rgba(255, 255, 255, 0.3);
+  	font-size: 12px;
+  	p {
+  		margin: 0;
+  	}
+  }
+  &__phone{
+  	padding:10px 10px;
+  }
+  &__links a{
+  	color: $white;
+  	text-decoration: none;
+  	padding: 5px 10px;
+  	&:hover{
+  		color:#b3ffff;
+  	}
+  }
 }

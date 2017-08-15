@@ -1,3 +1,13 @@
 .video-ntv{
-	background-image: url("img/bg-vieo.jpg");
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 40px 0;
+	h2{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	p{
+		text-align: center;
+		color:$main-color;
+	}
 } 

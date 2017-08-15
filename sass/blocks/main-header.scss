@@ -1,6 +1,5 @@
 .main-header {
   background-color: $main-color;
-  padding: 10px 0;
 }
 
 .bg-faded {
@@ -36,4 +35,18 @@
 }
 .dropdown-item:focus, .dropdown-item:hover {
 	background-color:rgba(2, 136, 209, 0.8);
+}
+@media(max-width:768px){
+  .navbar-brand{
+    white-space: normal;
+    &__text{
+      font-size: 90%;
+    }
+  }
+}
+@media(max-width:991px){
+  .dropdown .dropdown-menu{
+    box-shadow:none;
+    background-color: rgba(255,255,255, 0.3);
+  }
 }
