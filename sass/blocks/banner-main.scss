@@ -19,7 +19,7 @@
 } 
 .block-adress{
 	text-align: center;
-	margin: 40px auto 50px;
+	margin: 160px auto;
 	z-index:10;
 	position: relative;
 	&__inner{
@@ -32,5 +32,11 @@
 			a {
 				color:$white;
 			}
+	}
+}
+@media(max-width:768px){
+	.block-adress__inner{
+		width: auto;
+		font-size: 100%;
 	}
 }

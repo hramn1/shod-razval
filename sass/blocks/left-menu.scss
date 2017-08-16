@@ -1,0 +1,16 @@
+.left-menu{
+	&__links{
+		padding: 10px;
+		border: 1px solid #eeeeee;
+		display: block;
+		border-bottom:none;
+		&:last-child{
+			border-bottom:1px solid #eeeeee;
+		}
+		&:hover{
+			text-decoration: none;
+			color: $white;
+			background-color: $main-color;
+		}
+	}
+} 
