@@ -14,14 +14,24 @@
   	}
   }
   &__phone{
-  	padding:10px 10px;
+  	padding:10px 0;
+    display: block;
+    text-align: right;
   }
-  &__links a{
-  	color: $white;
-  	text-decoration: none;
-  	padding: 5px 10px;
-  	&:hover{
-  		color:#b3ffff;
-  	}
+  &__links{
+    padding:10px 0; 
+    a{
+    	color: $white;
+    	text-decoration: none;
+    	padding: 5px 10px 10px 0;
+    	&:hover{
+    		color:#b3ffff;
+  	  }
+    }
+  }
+}
+@media(max-width:991px){
+  .main-footer__phone{
+  text-align:left; 
   }
 }

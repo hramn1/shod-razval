@@ -2,5 +2,12 @@
 	background-color: $bg-color;
 	padding:20px 0;
 	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	&--inner-page{
+		background-color: #ffffff;
+	}
+}
+.breadcrumb{
+	background-color: transparent;
+	padding-left: 0;
 } 
 
