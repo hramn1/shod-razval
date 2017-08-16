@@ -12,6 +12,10 @@
   src:url(../fonts/Roboto.woff2) format("woff2"),
   url(../fonts/Roboto.woff) format("woff");
 }
+body{
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
 img {
 	max-width: 100%;
 } 
