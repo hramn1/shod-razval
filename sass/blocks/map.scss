@@ -10,6 +10,7 @@
 		padding: 25px 15px;
 		font-size: 100%;
 		line-height: 150%;
+		z-index: 1;
 		a{
 			color:$white;
 		}
@@ -25,5 +26,15 @@
 		background-color: $main-color;
 		font-size:13px;
   	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	}
+	.map__text{
+		max-width:540px;
+		margin:0 auto;
+		padding:0 15px;
+	}
+}
+@media(max-width:577px){
+	.map__text{
+		padding:0;
 	}
 }
