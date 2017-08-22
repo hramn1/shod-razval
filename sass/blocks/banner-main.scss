@@ -1,7 +1,7 @@
 .banner-main{
 	background-image: url("/img/banner_bg.jpg");
 	padding:30px 0 50px;
-	background-position: 0 0;
+	background-position: 0 35%;
 	background-size: cover;
 	position:relative;
 	&::after{
@@ -19,12 +19,12 @@
 } 
 .block-adress{
 	text-align: center;
-	margin: 160px auto;
+	margin: 45px auto;
 	z-index:10;
 	position: relative;
 	&__inner{
 		line-height: 140%;
-		font-size: 120%;
+		font-size: 130%;
 		color:$white;
 		width:500px;
 		padding:20px 15px 30px;

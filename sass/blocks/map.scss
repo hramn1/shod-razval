@@ -1,0 +1,29 @@
+.map{
+	position: relative;
+	.map__contact{
+		position: absolute;
+		top:12%;
+		right: 8%;
+		background-color: rgba(0, 0, 0, 0.6);
+		border:4px solid $main-color;
+		color:$white;
+		padding: 25px 15px;
+		font-size: 100%;
+		line-height: 150%;
+		a{
+			color:$white;
+		}
+	}
+
+}
+@media(max-width:768px){
+	.map .map__contact{
+		position: relative;
+		top:0;
+		right:0;
+		border:0;
+		background-color: $main-color;
+		font-size:13px;
+  	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	}
+}

@@ -22,9 +22,11 @@
   	color: #b3ffff;
   }
 }
-.nav-link{
+.navbar-nav .nav-item .nav-link{
 	position: relative;
 	margin: 15px;
+  padding-right: 0;
+  padding-left:0;
 }
 .dropdown .dropdown-menu{
 	background-color:rgba(2, 136, 209, 0.8);
@@ -48,5 +50,13 @@
   .dropdown .dropdown-menu{
     box-shadow:none;
     background-color: rgba(255,255,255, 0.3);
+  }
+  .navbar-nav .nav-item .nav-link{
+    font-size: 100%;
+  }
+}
+@media(max-width:1200px){
+  .navbar-nav .nav-item .nav-link, .navbar-brand__text{
+    font-size: 90% !important;
   }
 }
