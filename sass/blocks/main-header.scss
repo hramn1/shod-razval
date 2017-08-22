@@ -29,14 +29,14 @@
   padding-left:0;
 }
 .dropdown .dropdown-menu{
-	background-color:rgba(2, 136, 209, 0.8);
+	background-color:rgba(2, 136, 209, 0.95);
 	box-shadow: 0 0 4px 4px rgba(0, 0,0 , 0.6);
 	.dropdown-item {
 		color:$white;
 	 }
 }
 .dropdown-item:focus, .dropdown-item:hover {
-	background-color:rgba(2, 136, 209, 0.8);
+	background-color:rgba(2, 136, 209, 0.95);
 }
 @media(max-width:768px){
   .navbar-brand{
