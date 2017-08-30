@@ -3,6 +3,8 @@
 	&--service{
 		border-radius:5px;
 		background-color: $white;
+    		white-space: normal;
+        
 	}
 } 
 @media(max-width:768px){

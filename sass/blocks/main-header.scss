@@ -1,7 +1,22 @@
 .main-header {
   background-color: $main-color;
 }
-
+.head-fix{
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  opacity: 1;
+  box-shadow: 0 8px 12px 13px rgba(137, 137, 137, 0.6);
+  animation-name: vis;
+  animation-duration: 1s;
+  @media(max-width:991px){
+    position:relative;
+  }
+}
+@keyframes vis
+{
+	from{transform: translateY(-70px); opacity:0;}
+}
 .bg-faded {
   background-color: transparent;
 }
