@@ -9,6 +9,25 @@
     border: 2px solid #ddd;
     padding:10px 5px 15px;
     border-radius: 10px;
+    position:relative;
+    background-color:#eee;
+    transition: transform 500ms ease-in;
+    &:hover{
+      transform:scale(1.4);
+      transition: transform 500ms ease-in;
+      z-index:15
+    }
+    &::after{
+      content:"";
+      position:absolute;
+      bottom:0px;
+      left:0;
+      right:0;
+      height:25px;
+      background-color:transparentize($main-color, 0.3);
+      border-bottom-left-radius:10px;
+      border-bottom-right-radius:10px;
+    }
 	}
 	&__text{
 		margin-top: 15px;
@@ -21,4 +40,9 @@
     width:160px;
     object-fit: contain;
   }
-} 
+}
+@media(max-width:350px){
+  .widget-servise__text{
+    min-height:100px;
+  }
+}
