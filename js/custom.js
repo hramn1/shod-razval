@@ -7,4 +7,3 @@ window.onload = function() {
       el.classList.remove("head-fix");
   });
 }
-  

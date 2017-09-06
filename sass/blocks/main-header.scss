@@ -11,6 +11,7 @@
   animation-duration: 1s;
   @media(max-width:991px){
     position:relative;
+    animation: none;
   }
 }
 @keyframes vis
